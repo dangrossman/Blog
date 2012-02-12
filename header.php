@@ -38,11 +38,11 @@
 	<h1>Dan Grossman</h1>
 
 	<ul class="nav nav-pills nav-stacked">
-		<li<?php if (is_home() || is_archive() || is_single()) echo ' class="active"'; ?>><a href="/">Blog</a></li>
+		<li<?php if ((is_home() || is_archive() || is_single()) && !is_category('Code') && !is_category('Portfolio')) echo ' class="active"'; ?>><a href="/">Blog</a></li>
 		<li<?php if (is_page('Profile')) echo ' class="active"'; ?>><a href="/profile">Profile</a></li>
-		<li<?php if (is_page('Portfolio')) echo ' class="active"'; ?>><a href="/portfolio">Porftolio</a></li>
-		<li<?php if (is_page('Code')) echo ' class="active"'; ?>><a href="/code">Code</a></li>
-		<li<?php if (is_page('Contact')) echo ' class="active"'; ?>><a href="/contact">Contact</a></li>
+		<li<?php if (is_category('Portfolio')) echo ' class="active"'; ?>><a href="/category/portfolio">Porftolio</a></li>
+		<li<?php if (is_category('Code')) echo ' class="active"'; ?>><a href="/category/code">Code</a></li>
+		<li<?php if (is_page('Contact Me')) echo ' class="active"'; ?>><a href="/contact">Contact</a></li>
 	</ul>
 
 	<ul class="nav nav-list" style="margin-top: 40px">
@@ -52,17 +52,9 @@
 		<li><a href="http://news.ycombinator.com/user?id=dangrossman"><img src="http://news.ycombinator.com/favicon.ico" /> hacker news</a></li>
 		<li><a href="http://twitter.com/djg"><img src="http://twitter.com/favicon.ico" /> twitter</a></li>		
 		<li><a href="http://www.linkedin.com/in/dangrossmanawio"><img src="http://www.linkedin.com/favicon.ico" /> linkedin</a></li>
+		<li><a href="https://plus.google.com/100677073852106351263/posts"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/gplus.png" /> google+</a></li>
 	</ul>
 
 </div>
 
 <div id="right">
-
-	<?php if (is_home()): ?>
-	<div id="topbox">
-		<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/avatar.png" />
-		<p>This is the personal site of Dan Grossman, web developer and entrepreneur. I create web applications that help people get the most out of their websites. 
-		Check out my <a href="/profile">profile</a>, <a href="/portfolio">portfolio</a> and <a href="/code">open source code</a>.</p>
-		<div style="clear: both"></div>
-	</div>
-	<?php endif; ?>

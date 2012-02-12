@@ -29,9 +29,12 @@
 	padding: 20px 0 60px 0;
 }
 
-#right a:link, #right a:visited {
+#right a {
 	color: #000;
 	text-decoration: none;
+}
+
+.post p a, .post h2 a, #topbox a {
 	border-bottom: 1px dotted #000;
 }
 
@@ -84,6 +87,10 @@
 	margin-bottom: 10px;
 }
 
+.post h2 a {
+	border: none;
+}
+
 .post p, .post li {
 	font-size: 15px;
 	line-height: 1.5em;
@@ -91,4 +98,62 @@
 
 .post p {
 	margin: 0px 0px 1.5em 0px;
+}
+
+.portfolio {
+	clear: left;
+	margin: 20px;
+	width: 669px;
+	height: 250px;
+	background-position: -20px 0;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;	
+}
+
+.portfolio h2 {
+	position: absolute;
+	left: 435px;
+	top: 25px;
+	color: #fff;
+	font-size: 15px;
+}
+
+.portfolio a.btn {
+	position: absolute;
+	left: 435px;
+	bottom: 20px;
+}
+
+.portfolio ul {
+	position: absolute;
+	left: 435px;
+	top: 65px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.portfolio ul li {
+	float: left;
+}
+
+.portfolio li span  {
+	display: inline;
+	margin: 0 7px 0 0;
+	padding: 5px 0 6px 20px;
+	font-weight: bold;
+	font-size: 11px;
+	background: url(tagleftdark.png) no-repeat left top;
+}
+
+#right .portfolio li span a:link, #right .portfolio li span a:visited  {
+	margin: 0 -3px 0 0;
+	padding: 5px 9px 7px 0;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+	background: url(tagrightdark.png) no-repeat right top;
+	white-space: nowrap;
 }

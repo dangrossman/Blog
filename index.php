@@ -1,5 +1,15 @@
 <?php get_header(); ?>
 
+<?php if (is_home()): ?>
+<div id="topbox">
+	<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/avatar.png" />
+	<p>This is the personal site of Dan Grossman, web developer and <a href="http://www.awio.com">entrepreneur</a>. I create web applications that 
+	help people get the most out of their websites. Check out my <a href="/profile">profile</a>, <a href="/portfolio">portfolio</a> and 
+	<a href="/code">open source code</a>.</p>
+	<div style="clear: both"></div>
+</div>
+<?php endif; ?>
+
 <?php while ( have_posts() ) : the_post(); ?>
 
  <?php the_date('F j, Y', '<div class="postdate"><h1>', '</h1></div>'); ?> 
