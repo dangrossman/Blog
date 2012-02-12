@@ -1,0 +1,94 @@
+/* 
+ * Theme Name: dangrossman.info 2012
+ */
+
+#left {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 210px;
+	border-right: 1px dotted #ccc;
+	padding: 40px 20px;
+	background: url(/wp-content/themes/2012/connect.png);	
+}
+
+#left h1 {
+	margin: 0 10px 20px 10px;
+	font-size: 24px;
+}
+
+#left ul li img {
+	position: relative;
+	top: 3px;
+	margin-right: 1px;
+}
+
+#right {
+	margin-left: 251px;
+	padding: 20px 0 60px 0;
+}
+
+#right a:link, #right a:visited {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+}
+
+#topbox {
+	margin: 20px;
+	padding: 20px;
+	background: #efefef;
+	color: #000;
+	width: 629px;
+}
+
+#topbox img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#topbox p {
+	font-size: 11pt;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+.postdate {
+	border-top: 1px dotted #ccc;
+}
+
+.postdate h1 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 20px;
+	float: left;
+	margin-top: 20px;
+	background: url(/wp-content/themes/2012/denim.png);
+	color: #fff;	
+}
+
+.pager {
+	clear: left;
+	margin: 0 20px;
+	width: 669px;
+}
+
+.post {
+	clear: left;
+	padding: 20px;
+	width: 669px;
+}
+
+.post h2 {
+	margin-bottom: 10px;
+}
+
+.post p, .post li {
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+.post p {
+	margin: 0px 0px 1.5em 0px;
+}
