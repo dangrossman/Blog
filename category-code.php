@@ -13,7 +13,7 @@
 	$filename = $arr[count($arr)-1];
 ?>
 
- <?php the_date('F j, Y', '<div class="postdate"><h1>', '</h1></div>'); ?> 
+<div class="separator"></div>
 
 <div class="post">
 

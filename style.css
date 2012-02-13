@@ -93,11 +93,7 @@
 	margin-bottom: 10px;
 }
 
-.post h2 a {
-	border: none;
-}
-
-.post p, .post li {
+.post p, .post li, .post label {
 	font-size: 15px;
 	line-height: 1.5em;
 }
@@ -163,4 +159,11 @@
 	text-decoration: none;
 	background: url(tagrightdark.png) no-repeat right top;
 	white-space: nowrap;
+}
+
+.contactform label {
+    display: block;
+    font-weight: bold;
+    width: 200px;
+    float: left;
 }
