@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<div id="topbox">
+	I create and contribute to open source projects, providing free products for site owners and libraries for other programmers.
+</div>
+
 <?php while ( have_posts() ) : the_post(); ?>
 
 <?php

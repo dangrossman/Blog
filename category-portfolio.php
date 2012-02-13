@@ -5,22 +5,9 @@
 	This is some of my work.
 </div>
 
-<div class="portfolio" style="background-image: url('http://awio.com/w3roi.png'); border: 1px solid #fff">
-	<h2>Technologies Used</h2>
+<div class="separator"></div>
 
-	<ul>
-		<li><span><a href="#">PHP</a></span></li>
-		<li><span><a href="#">Symfony</a></span></li>
-		<li><span><a href="#">jQuery</a></span></li>
-		<li><span><a href="#">MySQL</a></span></li>
-		<li><span><a href="#">PayPal</a></span></li>
-		<li><span><a href="#">Authorize.net</a></span></li>
-	</ul>		
-
-	<a class="btn" href="http://www.w3roi.com"><i class="icon-share"></i> Visit the w3roi Website</a>
-</div>
-
-<div class="portfolio" style="background-image: url('http://awio.com/w3counter.png'); border: 1px solid #ccc">
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/w3counter.png'); border: 1px solid #ccc">
 	<h2 style="color: #222">Technologies Used</h2>
 
 	<ul>
@@ -37,7 +24,10 @@
 	<a class="btn" href="http://www.w3counter.com"><i class="icon-share"></i> Visit the W3Counter Website</a>
 </div>
 
-<div class="portfolio" style="background-image: url('http://awio.com/dialshield.png'); border: 1px solid #fff">
+<div class="separator"></div>
+
+
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/dialshield.png'); border: 1px solid #fff">
 	<h2>Technologies Used</h2>
 
 	<ul>
@@ -52,16 +42,78 @@
 	<a class="btn" href="http://www.dialshield.com"><i class="icon-share"></i> Visit the DialShield Website</a>
 </div>
 
-<div class="portfolio" style="background-image: url('http://awio.com/visitorboost.png'); border: 1px solid #ccc">
-	<h2 style="color: #222">Technologies Used</h2>
+<div class="separator"></div>
+
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/w3roi.png'); border: 1px solid #fff">
+	<h2>Technologies Used</h2>
 
 	<ul>
 		<li><span><a href="#">PHP</a></span></li>
+		<li><span><a href="#">Symfony</a></span></li>
+		<li><span><a href="#">jQuery</a></span></li>
 		<li><span><a href="#">MySQL</a></span></li>
 		<li><span><a href="#">PayPal</a></span></li>
 		<li><span><a href="#">Authorize.net</a></span></li>
 	</ul>		
 
-	<a class="btn" href="http://www.visitorboost.com"><i class="icon-share"></i> Visit the VisitorBoost Website</a>
+	<a class="btn" href="http://www.w3roi.com"><i class="icon-share"></i> Visit the w3roi Website</a>
 </div>
+
+<div class="separator"></div>
+
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/bookmarkly.png'); border: 1px solid #fff">
+	<h2>Technologies Used</h2>
+
+	<ul>
+		<li><span><a href="#">node.js</a></span></li>
+		<li><span><a href="#">backbone.js</a></span></li>
+		<li><span><a href="#">jQuery</a></span></li>
+		<li><span><a href="#">MySQL</a></span></li>		
+	</ul>		
+
+	<a class="btn" href="http://bookmarkly.com"><i class="icon-share"></i> Visit the Bookmarkly Website</a>
+</div>
+
+<div class="separator"></div>
+
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/diffmon.png'); border: 1px solid #fff">
+	<h2 style="color: #222">Technologies Used</h2>
+
+	<ul>
+		<li><span><a href="#">PHP</a></span></li>
+		<li><span><a href="#">MySQL</a></span></li>
+	</ul>		
+
+	<a class="btn" href="http://www.diffmon.com"><i class="icon-share"></i> Visit the DiffMon Website</a>
+</div>
+
+<div class="separator"></div>
+
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/wpreviewsite.png'); border: 1px solid #ccc">
+	<h2 style="color: #222">Technologies Used</h2>
+
+	<ul>
+		<li><span><a href="#">PHP</a></span></li>
+		<li><span><a href="#">MySQL</a></span></li>
+		<li><span><a href="#">WordPress</a></span></li>		
+	</ul>		
+
+	<a class="btn" href="http://www.wpreviewsite.com" rel="nofollow"><i class="icon-share"></i> Visit the WPRS Website</a>
+</div>
+
+<div class="separator"></div>
+
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/websitegoodies.png'); border: 1px solid #fff">
+	<h2 style="color: #222">Technologies Used</h2>
+
+	<ul>
+		<li><span><a href="#">PHP</a></span></li>
+		<li><span><a href="#">Perl</a></span></li>	
+		<li><span><a href="#">MySQL</a></span></li>
+		<li><span><a href="#">WordPress</a></span></li>		
+	</ul>		
+
+	<a class="btn" href="http://www.websitegoodies.com" rel="nofollow"><i class="icon-share"></i> Visit the WSG Website</a>
+</div>
+
 <?php get_footer(); ?>

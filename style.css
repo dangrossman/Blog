@@ -34,6 +34,12 @@
 	text-decoration: none;
 }
 
+.separator {
+	width: 709px; 
+	border-top: 1px dotted #ccc; 
+	margin: 20px 0;
+}
+
 .post p a, .post h2 a, #topbox a {
 	border-bottom: 1px dotted #000;
 }
@@ -104,8 +110,8 @@
 	clear: left;
 	margin: 20px;
 	width: 669px;
-	height: 250px;
-	background-position: -20px 0;
+	height: 240px;
+	background-position: -20px -10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -115,7 +121,7 @@
 .portfolio h2 {
 	position: absolute;
 	left: 435px;
-	top: 25px;
+	top: 15px;
 	color: #fff;
 	font-size: 15px;
 }
@@ -129,7 +135,7 @@
 .portfolio ul {
 	position: absolute;
 	left: 435px;
-	top: 65px;
+	top: 55px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -137,21 +143,22 @@
 
 .portfolio ul li {
 	float: left;
+	margin: 0 2px 12px 0;
 }
 
 .portfolio li span  {
 	display: inline;
 	margin: 0 7px 0 0;
-	padding: 5px 0 6px 20px;
+	padding: 5px 0 7px 20px;
 	font-weight: bold;
 	font-size: 11px;
 	background: url(tagleftdark.png) no-repeat left top;
+	overflow: hidden;
 }
 
 #right .portfolio li span a:link, #right .portfolio li span a:visited  {
 	margin: 0 -3px 0 0;
 	padding: 5px 9px 7px 0;
-	line-height: 30px;
 	color: #fff;
 	text-decoration: none;
 	background: url(tagrightdark.png) no-repeat right top;
