@@ -77,7 +77,7 @@
 <div class="separator"></div>
 
 <div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/diffmon.png'); border: 1px solid #fff">
-	<h2 style="color: #222">Technologies Used</h2>
+	<h2>Technologies Used</h2>
 
 	<ul>
 		<li><span><a href="#">PHP</a></span></li>
