@@ -89,16 +89,17 @@
 
 <div class="separator"></div>
 
-<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/wpreviewsite.png'); border: 1px solid #ccc">
-	<h2 style="color: #222">Technologies Used</h2>
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/visitorboost.png'); border: 1px solid #ccc">
+    <h2 style="color: #222">Technologies Used</h2>
 
-	<ul>
-		<li><span><a href="#">PHP</a></span></li>
-		<li><span><a href="#">MySQL</a></span></li>
-		<li><span><a href="#">WordPress</a></span></li>		
-	</ul>		
+    <ul>
+        <li><span><a href="#">PHP</a></span></li>
+        <li><span><a href="#">MySQL</a></span></li>
+        <li><span><a href="#">Authorize.net</a></span></li>
+        <li><span><a href="#">PayPal</a></span></li>
+    </ul>
 
-	<a class="btn" href="http://www.wpreviewsite.com" rel="nofollow"><i class="icon-share"></i> Visit the WPRS Website</a>
+    <a class="btn" href="http://www.visitorboost.com"><i class="icon-share"></i> Visit the VisitorBoost Website</a>
 </div>
 
 <div class="separator"></div>
@@ -113,7 +114,21 @@
 		<li><span><a href="#">WordPress</a></span></li>		
 	</ul>		
 
-	<a class="btn" href="http://www.websitegoodies.com" rel="nofollow"><i class="icon-share"></i> Visit the WSG Website</a>
+	<a class="btn" href="http://www.websitegoodies.com"><i class="icon-share"></i> Visit the WSG Website</a>
+</div>
+
+<div class="separator"></div>
+
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/wpreviewsite.png'); border: 1px solid #ccc">
+    <h2 style="color: #222">Technologies Used</h2>
+
+    <ul>
+        <li><span><a href="#">PHP</a></span></li>
+        <li><span><a href="#">MySQL</a></span></li>
+        <li><span><a href="#">WordPress</a></span></li>
+    </ul>
+
+    <a class="btn" href="http://www.wpreviewsite.com" rel="nofollow"><i class="icon-share"></i> Visit the WPRS Website</a>
 </div>
 
 <?php get_footer(); ?>
