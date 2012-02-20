@@ -44,6 +44,10 @@
 	border-bottom: 1px dotted #000;
 }
 
+.post p a {
+    font-weight: bold;
+}
+
 #topbox {
 	margin: 20px;
 	padding: 20px;
