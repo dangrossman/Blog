@@ -48,6 +48,10 @@
     font-weight: bold;
 }
 
+.post blockquote {
+    border-left: 5px solid #08c;
+}
+
 #topbox {
 	margin: 20px;
 	padding: 20px;
