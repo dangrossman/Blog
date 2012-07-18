@@ -68,7 +68,8 @@
 		<li><span><a href="#">node.js</a></span></li>
 		<li><span><a href="#">backbone.js</a></span></li>
 		<li><span><a href="#">jQuery</a></span></li>
-		<li><span><a href="#">MySQL</a></span></li>		
+		<li><span><a href="#">MySQL</a></span></li>
+        <li><span><a href="#">redis</a></span></li>
 	</ul>		
 
 	<a class="btn" href="http://bookmarkly.com"><i class="icon-share"></i> Visit the Bookmarkly Website</a>
