@@ -22,7 +22,8 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<!--<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />-->
+<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/2012/style.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	if ( is_singular() && get_option( 'thread_comments' ) )
@@ -45,7 +46,7 @@
 		<li<?php if (is_page('Contact Me')) echo ' class="active"'; ?>><a href="/contact">Contact</a></li>
 	</ul>
 
-	<ul class="nav nav-list" style="margin-top: 40px">
+	<ul class="nav nav-list" style="margin-top: 20px">
 		<li class="nav-header">You'll also find me here</li>
 		<li><a href="http://github.com/dangrossman"><img src="http://github.com/favicon.ico" /> github</a></li>
 		<li><a href="http://stackoverflow.com/users/280598/dan-grossman"><img src="http://stackoverflow.com/favicon.ico" /> stack overflow</a></li>

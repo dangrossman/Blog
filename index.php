@@ -7,10 +7,12 @@
 
 <?php if (is_home()): ?>
 <div id="topbox">
-	<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/avatar.png" />
-	<p>This is the personal site of Dan Grossman, web developer and <a href="http://www.awio.com">entrepreneur</a>. I create web applications that 
-	help people get the most out of their websites. Check out my <a href="/profile">profile</a>, <a href="/category/portfolio">portfolio</a> and 
-	<a href="/category/code">open source code</a>.</p>
+	<p>
+		This is the personal site of Dan Grossman, a software developer and 
+		<a href="http://www.awio.com">entrepreneur</a> in Pennsylvania. Most people 
+		know me for creating <a href="http://www.w3counter.com">W3Counter</a> and 
+		<a href="http://www.improvely.com">Improvely</a>.
+	</p>
 	<div style="clear: both"></div>
 </div>
 <?php endif; ?>

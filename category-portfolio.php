@@ -7,6 +7,21 @@
 
 <div class="separator"></div>
 
+<div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/improvely.png'); border: 1px solid #ccc">
+	<h2 style="color: #222">Technologies Used</h2>
+
+	<ul>
+		<li><span><a href="#">PHP</a></span></li>
+		<li><span><a href="#">Symfony</a></span></li>
+		<li><span><a href="#">jQuery</a></span></li>
+		<li><span><a href="#">MySQL</a></span></li>
+		<li><span><a href="#">redis</a></span></li>
+		<li><span><a href="#">SpreedlyCore</a></span></li>
+	</ul>		
+
+	<a class="btn" href="http://www.improvely.com"><i class="icon-share"></i> Visit the Improvely Website</a>
+</div>
+
 <div class="portfolio" style="background-image: url('/wp-content/themes/2012/portfolio/w3counter.png'); border: 1px solid #ccc">
 	<h2 style="color: #222">Technologies Used</h2>
 
