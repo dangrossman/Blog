@@ -48,7 +48,7 @@
 	padding: 20px 0 0 0;
 }
 
-#right a {
+#right a:link, #right a:visited {
 	color: #000;
 	text-decoration: none;
 }
@@ -60,8 +60,16 @@
 }
 
 .post p a, .post h2 a, #topbox a {
-	border-bottom: 1px dotted #000;
+	border-bottom: 1px solid #ccc;
 	font-weight: bold;
+}
+
+.post a.post-title:link, .post a.post-title:visited {
+    border: none;
+}
+
+#right a:hover {
+    color: #08c;
 }
 
 .post p a {
