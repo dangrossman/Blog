@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="topbox">
-	I create and contribute to open source projects, providing free products for site owners and libraries for other programmers.
+    Sometimes I write code that might be useful to others. I make it available here.
 </div>
 
 <?php while ( have_posts() ) : the_post(); ?>
