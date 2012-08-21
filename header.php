@@ -31,6 +31,12 @@
 
 	wp_head();
 ?>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/wp-content/themes/2012/date.js"></script>
+<script src="/wp-content/themes/2012/daterangepicker.js"></script>
+<link type="text/css" rel="stylesheet" href="/wp-content/themes/2012/daterangepicker.css" />
+
 </head>
 <body>
 

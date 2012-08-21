@@ -19,6 +19,13 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 
+  <?php
+    if (get_the_title() != 'A date range picker for Twitter Bootstrap') {
+      add_filter('the_content', 'wpautop');
+      add_filter('the_content', 'wptexturize');
+    }
+  ?>
+
  <?php the_date('F j, Y', '<div class="postdate"><h1>', '</h1></div>'); ?> 
 
 <div class="post">
