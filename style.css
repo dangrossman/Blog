@@ -22,7 +22,7 @@
 	background: url(/wp-content/themes/2012/dangrossman.png) no-repeat	;
 }
 
-#left ul.nav-pills li a:link {
+#left ul.nav-pills li a:link, #left ul.nav-pills li a:visited {
 	padding: 20px 30px;
 	border-radius: 0;
 	font-weight: bold;
@@ -33,7 +33,7 @@
 	padding: 5px 30px;
 }
 
-#left ul.nav-list li a:link {
+#left ul.nav-list li a:link, #left ul.nav-list li a:visited {
 	padding: 5px 30px;
 }
 
