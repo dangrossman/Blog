@@ -21,7 +21,7 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap.min.css" />
 <!--<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />-->
 <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/2012/style.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -32,7 +32,7 @@
 	wp_head();
 ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 <script src="/wp-content/themes/2012/date.js"></script>
 <script src="/wp-content/themes/2012/daterangepicker.js"></script>
 <link type="text/css" rel="stylesheet" href="/wp-content/themes/2012/daterangepicker.css" />
@@ -42,7 +42,7 @@
 
 <div id="left">
 
-	<h1>Dan Grossman</h1>
+	<h1><a href="/">Dan Grossman</a></h1>
 
 	<ul class="nav nav-pills nav-stacked">
 		<li<?php if ((is_home() || is_archive() || is_single()) && !is_category('Code') && !is_category('Portfolio')) echo ' class="active"'; ?>><a href="/">Blog</a></li>
@@ -54,12 +54,13 @@
 
 	<ul class="nav nav-list" style="margin-top: 20px">
 		<li class="nav-header">You'll also find me here</li>
-		<li><a href="http://github.com/dangrossman"><img src="http://github.com/favicon.ico" /> github</a></li>
-		<li><a href="http://stackoverflow.com/users/280598/dan-grossman"><img src="http://stackoverflow.com/favicon.ico" /> stack overflow</a></li>
+		<li><a href="http://github.com/dangrossman"><img src="http://github.com/favicon.ico" width="16" height="16" /> github</a></li>
+		<li><a href="http://stackoverflow.com/users/280598/dan-grossman"><img src="http://cdn.sstatic.net/stackoverflow/img/favicon.ico" /> stack overflow</a></li>
 		<li><a href="http://news.ycombinator.com/user?id=dangrossman"><img src="http://news.ycombinator.com/favicon.ico" /> hacker news</a></li>
 		<li><a href="http://twitter.com/djg"><img src="http://twitter.com/favicon.ico" /> twitter</a></li>		
 		<li><a href="http://www.linkedin.com/in/dangrossmanawio"><img src="http://www.linkedin.com/favicon.ico" /> linkedin</a></li>
 		<li><a href="https://plus.google.com/100677073852106351263/posts"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/gplus.png" /> google+</a></li>
+        <li><a href="/rss"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/feedicon.png" /> RSS feed</a></li>
 	</ul>
 
 </div>

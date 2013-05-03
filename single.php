@@ -10,7 +10,7 @@
 
 
     <div style="">
-        <a href="http://www.improvely.com" title="Stop Click Fraud"><img src="http://www.improvely.com/images/ads/669conversions.png" alt="PPC Click Fraud Detection" /></a>
+        <a href="http://www.improvely.com" title="Stop Click Fraud"><img src="http://www.improvely.com/images/ads/669gray.png" alt="PPC Click Fraud Detection" /></a>
     </div>
 
 	<div style="border-top: 1px dotted #ccc; padding-top: 20px">
