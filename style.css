@@ -38,6 +38,7 @@
 
 #left ul.nav-list li a:link, #left ul.nav-list li a:visited {
 	padding: 5px 30px;
+	font-weight: bold;
 }
 
 #left ul.nav-list li img {
@@ -46,9 +47,17 @@
 	margin-right: 1px;
 }
 
+#left ul.nav-list li a i {
+	color: #333;
+}
+
 #right {
 	margin-left: 251px;
 	padding: 20px 0 0 0;
+}
+
+#right h2 {
+        font-weight: normal;
 }
 
 #right a:link, #right a:visited {
@@ -62,21 +71,18 @@
 	margin: 20px 0;
 }
 
-.post p a, .post h2 a, #topbox a {
-	border-bottom: 1px solid #ccc;
-	font-weight: bold;
-}
-
-.post a.post-title:link, .post a.post-title:visited {
-    border: none;
-}
-
 #right a:hover {
     color: #08c;
 }
 
-.post p a {
-    font-weight: bold;
+#right .post p a:link, #right .post p a:visited {
+    font-weight: normal;
+    color: #08c;
+    border: none;
+}
+
+#right .post p a:hover {
+    color: #06c;
 }
 
 .post blockquote {
@@ -103,13 +109,20 @@
 	margin: 0;
 }
 
+#topbox a:link, #topbox a:visited {
+        color: #08c;
+        font-weight: bold;
+}
+
+/*
 .postdate {
 	border-top: 1px dotted #ccc;
 }
+*/
 
 .postdate h1 {
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: normal;
 	padding: 3px 20px;
 	float: left;
 	margin: 20px 0 0 20px;
@@ -126,8 +139,13 @@
 
 .post {
 	clear: left;
-	padding: 10px 20px 20px 20px;
+	padding: 10px 20px 10px 20px;
 	width: 669px;
+}
+
+.postsep {
+        border-bottom: 1px dotted #ccc;
+        margin-bottom: 10px;
 }
 
 .post h2 {

@@ -22,8 +22,11 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap.min.css" />
-<!--<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />-->
-<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/2012/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/font-awesome/css/font-awesome.css" />
+<!--[if IE 7]>
+  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/font-awesome/css/font-awesome-ie7.css" />
+<![endif]-->
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	if ( is_singular() && get_option( 'thread_comments' ) )
@@ -54,13 +57,14 @@
 
 	<ul class="nav nav-list" style="margin-top: 20px">
 		<li class="nav-header">You'll also find me here</li>
-		<li><a href="http://github.com/dangrossman"><img src="http://github.com/favicon.ico" width="16" height="16" /> github</a></li>
-		<li><a href="http://stackoverflow.com/users/280598/dan-grossman"><img src="http://cdn.sstatic.net/stackoverflow/img/favicon.ico" /> stack overflow</a></li>
-		<li><a href="http://news.ycombinator.com/user?id=dangrossman"><img src="http://news.ycombinator.com/favicon.ico" /> hacker news</a></li>
-		<li><a href="http://twitter.com/djg"><img src="http://twitter.com/favicon.ico" /> twitter</a></li>		
-		<li><a href="http://www.linkedin.com/in/dangrossmanawio"><img src="http://www.linkedin.com/favicon.ico" /> linkedin</a></li>
-		<li><a href="https://plus.google.com/100677073852106351263/posts"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/gplus.png" /> google+</a></li>
-        <li><a href="/rss"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/feedicon.png" /> RSS feed</a></li>
+		<li><a href="http://github.com/dangrossman"><i class="icon-github icon-large"></i> github</a></li>
+		<li><a href="http://stackoverflow.com/users/280598/dan-grossman"><i class="icon-stackexchange icon-large"></i> stack overflow</a></li>
+		<li><a href="http://news.ycombinator.com/user?id=dangrossman"><i class="icon-sign-blank icon-large"></i> hacker news</a></li>
+		<li><a href="http://twitter.com/djg"><i class="icon-twitter-sign icon-large"></i> twitter</a></li>		
+		<li><a href="http://www.linkedin.com/in/dangrossmanawio"><i class="icon-linkedin-sign icon-large"></i> linkedin</a></li>
+		<li><a href="https://plus.google.com/100677073852106351263/posts"><i class="icon-google-plus-sign icon-large"></i> google+</a></li>
+		<li class="separator" style="width: auto"></li>
+	        <li><a href="/rss"><i class="icon-rss-sign icon-large"></i> RSS feed</a></li>
 	</ul>
 
 </div>
