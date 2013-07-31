@@ -27,7 +27,7 @@
 
 .daterangepicker .calendar {
   display: none;
-  max-width: 230px;
+  max-width: 250px;
 }
 
 .daterangepicker .calendar th, .daterangepicker .calendar td {
@@ -73,11 +73,17 @@
   color: #fff;
 }
 
-.daterangepicker .calendar {
+.daterangepicker .calendar-date {
   border: 1px solid #ddd;
   padding: 4px;
   border-radius: 4px;
   background: #fff;
+}
+
+.daterangepicker .calendar-time {
+  text-align: center;
+  margin: 8px auto 0 auto;
+  line-height: 30px;
 }
 
 .daterangepicker {
@@ -157,6 +163,7 @@
 .daterangepicker td.off {
   color: #999;
 }
+
 .daterangepicker td.disabled {
   color: #999;
 }
@@ -190,22 +197,28 @@
 }
 
 .daterangepicker td.week, .daterangepicker th.week {
-    font-size: 80%;
-    color: #ccc;
+  font-size: 80%;
+  color: #ccc;
 }
 
 .daterangepicker select.monthselect, .daterangepicker select.yearselect {
-  font-size: 12px;
-  padding:1px;
-  height:auto;
-  margin:0;
-  cursor:default;
+  font-size: 12px;
+  padding: 1px;
+  height: auto;
+  margin: 0;
+  cursor: default;
 }
 
 .daterangepicker select.monthselect {
-	margin-right:2%;
-	width:56%;
+  margin-right: 2%;
+  width: 56%;
 }
+
 .daterangepicker select.yearselect {
-	width:40%;
+  width: 40%;
+}
+
+.daterangepicker select.hourselect, .daterangepicker select.minuteselect, .daterangepicker select.ampmselect {
+  width: 60px;
+  margin-bottom: 0;
 }

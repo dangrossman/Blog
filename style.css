@@ -9,20 +9,26 @@
 	height: 100%;
 	width: 250px;
 	border-right: 1px dotted #ccc;
-	padding: 40px 0 0 0;
+	padding: 20px 0 0 0;
 	background: url(/wp-content/themes/2012/grid.png);	
 }
 
 #left h1 {
-	margin: 0 0 30px 30px;
+	margin: 0 0 20px 30px;
 	font-size: 22px;
-	width: 169px;
-	height: 21px;
+	line-height: 32px;
+	font-weight: normal;
 }
 
 #left h1 a:link, #left h1 a:visited {
-    text-decoration: none;
-    color: #000;
+	text-decoration: none;
+	color: #000;
+}
+
+#left h1 img {
+	margin-right: 3px;
+	border: 1px solid #000;
+	border-radius: 4px;
 }
 
 #left ul.nav-pills li a:link, #left ul.nav-pills li a:visited {
@@ -57,7 +63,7 @@
 }
 
 #right h2 {
-        font-weight: normal;
+	font-weight: normal;
 }
 
 #right a:link, #right a:visited {
@@ -72,21 +78,21 @@
 }
 
 #right a:hover {
-    color: #08c;
+	color: #08c;
 }
 
 #right .post p a:link, #right .post p a:visited {
-    font-weight: normal;
-    color: #08c;
-    border: none;
+	font-weight: normal;
+	color: #08c;
+	border: none;
 }
 
 #right .post p a:hover {
-    color: #06c;
+	color: #06c;
 }
 
 .post blockquote {
-    border-left: 5px solid #08c;
+	border-left: 5px solid #08c;
 }
 
 #topbox {
@@ -110,15 +116,9 @@
 }
 
 #topbox a:link, #topbox a:visited {
-        color: #08c;
-        font-weight: bold;
+	color: #08c;
+	font-weight: bold;
 }
-
-/*
-.postdate {
-	border-top: 1px dotted #ccc;
-}
-*/
 
 .postdate h1 {
 	font-size: 18px;
@@ -144,8 +144,8 @@
 }
 
 .postsep {
-        border-bottom: 1px dotted #ccc;
-        margin-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 10px;
 }
 
 .post h2 {
@@ -201,7 +201,7 @@
 	margin: 0 2px 12px 0;
 }
 
-.portfolio li span  {
+.portfolio li span {
 	display: inline;
 	margin: 0 7px 0 0;
 	padding: 5px 0 7px 20px;
@@ -211,7 +211,7 @@
 	overflow: hidden;
 }
 
-#right .portfolio li span a:link, #right .portfolio li span a:visited  {
+#right .portfolio li span a:link, #right .portfolio li span a:visited {
 	margin: 0 -3px 0 0;
 	padding: 5px 9px 7px 0;
 	color: #fff;
@@ -221,26 +221,30 @@
 }
 
 .contactform label {
-    display: block;
-    font-weight: bold;
-    width: 200px;
-    float: left;
+	display: block;
+	font-weight: bold;
+	width: 200px;
+	float: left;
 }
 
 #reportrange {
-  background: #ffffff;
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  color: #333333;
-  padding: 8px;
-  line-height: 18px;
-  cursor: pointer;
+	background: #ffffff;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+	color: #333333;
+	padding: 8px;
+	line-height: 18px;
+	cursor: pointer;
 }
 #reportrange .caret {
-  margin-top: 8px;
-  margin-left: 2px;
+	margin-top: 8px;
+	margin-left: 2px;
 }
 #reportrange span {
-  padding-left: 3px;
+	padding-left: 3px;
+}
+
+h3 {
+	font-weight: normal;
 }

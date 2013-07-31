@@ -36,7 +36,7 @@
 ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script src="/wp-content/themes/2012/date.js"></script>
+<script src="/wp-content/themes/2012/moment.js"></script>
 <script src="/wp-content/themes/2012/daterangepicker.js"></script>
 <link type="text/css" rel="stylesheet" href="/wp-content/themes/2012/daterangepicker.css" />
 
@@ -45,7 +45,7 @@
 
 <div id="left">
 
-	<h1><a href="/">Dan Grossman</a></h1>
+	<h1><a href="/"><img src="https://www.gravatar.com/avatar/b60786ec5b4e9ea388df529076add9e0?s=32&d=identicon" /> Dan Grossman</a></h1>
 
 	<ul class="nav nav-pills nav-stacked">
 		<li<?php if ((is_home() || is_archive() || is_single()) && !is_category('Code') && !is_category('Portfolio')) echo ' class="active"'; ?>><a href="/">Blog</a></li>
