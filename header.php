@@ -20,53 +20,49 @@
 		echo ' | ' . sprintf('Page %s', max($paged, $page));
 
 	?></title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/style.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/font-awesome/css/font-awesome.css" />
-<!--[if IE 7]>
-  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/font-awesome/css/font-awesome-ie7.css" />
-<![endif]-->
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<?php
-	if ( is_singular() && get_option( 'thread_comments' ) )
-		wp_enqueue_script( 'comment-reply' );
 
-	wp_head();
-?>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script src="/wp-content/themes/2012/moment.js"></script>
-<script src="/wp-content/themes/2012/daterangepicker.js"></script>
-<link type="text/css" rel="stylesheet" href="/wp-content/themes/2012/daterangepicker.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/2012/daterangepicker-bs3.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/2012/style.css" />
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/2012/moment.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/2012/daterangepicker.js"></script>
+
+	<link rel="stylesheet" href="http://f.fontdeck.com/s/css/uH5+KWQnibDTJRYggGJ9XZLTAgw/www.dangrossman.info/41697.css" type="text/css" />
+
+	<?php wp_head(); ?>
 
 </head>
 <body>
 
-<div id="left">
-
-	<h1><a href="/"><img src="https://www.gravatar.com/avatar/b60786ec5b4e9ea388df529076add9e0?s=32&d=identicon" /> Dan Grossman</a></h1>
-
-	<ul class="nav nav-pills nav-stacked">
-		<li<?php if ((is_home() || is_archive() || is_single()) && !is_category('Code') && !is_category('Portfolio')) echo ' class="active"'; ?>><a href="/">Blog</a></li>
+<div class="navbar navbar-inverse" role="navigation" style="border-radius: 0">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Dan Grossman</a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right">
+      <ul class="nav navbar-nav">
+      	<li<?php if ((is_home() || is_archive() || is_single()) && !is_category('Code') && !is_category('Portfolio')) echo ' class="active"'; ?>><a href="/">Blog</a></li>
 		<li<?php if (is_page('Profile')) echo ' class="active"'; ?>><a href="/profile">Profile</a></li>
 		<li<?php if (is_category('Portfolio')) echo ' class="active"'; ?>><a href="/category/portfolio">Portfolio</a></li>
 		<li<?php if (is_category('Code')) echo ' class="active"'; ?>><a href="/category/code">Code</a></li>
 		<li<?php if (is_page('Contact Me')) echo ' class="active"'; ?>><a href="/contact">Contact</a></li>
-	</ul>
-
-	<ul class="nav nav-list" style="margin-top: 20px">
-		<li class="nav-header">You'll also find me here</li>
-		<li><a href="http://github.com/dangrossman"><i class="icon-github icon-large"></i> github</a></li>
-		<li><a href="http://stackoverflow.com/users/280598/dan-grossman"><i class="icon-stackexchange icon-large"></i> stack overflow</a></li>
-		<li><a href="http://news.ycombinator.com/user?id=dangrossman"><i class="icon-sign-blank icon-large"></i> hacker news</a></li>
-		<li><a href="http://twitter.com/djg"><i class="icon-twitter-sign icon-large"></i> twitter</a></li>		
-		<li><a href="http://www.linkedin.com/in/dangrossmanawio"><i class="icon-linkedin-sign icon-large"></i> linkedin</a></li>
-		<li><a href="https://plus.google.com/100677073852106351263/posts"><i class="icon-google-plus-sign icon-large"></i> google+</a></li>
-		<li class="separator" style="width: auto"></li>
-	        <li><a href="/rss"><i class="icon-rss-sign icon-large"></i> RSS feed</a></li>
-	</ul>
-
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
 </div>
-
-<div id="right">
+<div id="topstripe"></div>

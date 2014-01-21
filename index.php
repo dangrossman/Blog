@@ -5,18 +5,6 @@
   query_posts('cat=-461,-683&paged=' . $paged);
 } ?>
 
-<?php if (is_home()): ?>
-<div id="topbox">
-  <p>
-    This is the personal site of Dan Grossman, a software developer and 
-    <a href="http://www.awio.com">entrepreneur</a> in Pennsylvania. Most people 
-    know me for creating <a href="http://www.w3counter.com">W3Counter</a> and 
-    <a href="http://www.improvely.com">Improvely</a>.
-  </p>
-  <div style="clear: both"></div>
-</div>
-<?php endif; ?>
-
 <div class="postsep" style="margin: 0"></div>
 
 <?php while ( have_posts() ) : the_post(); ?>
@@ -36,8 +24,6 @@
     <?php endif; ?>
     <?php the_content(); ?>
   </div>
-
-  <div class="postsep"></div>
 
 <?php endwhile; ?>
 

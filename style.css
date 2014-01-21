@@ -1,224 +1,36 @@
 /* 
- * Theme Name: dangrossman.info 2012
+ * Theme Name: dangrossman.info 2014
  */
 
-#left {
-	position: fixed;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 250px;
-	border-right: 1px dotted #ccc;
-	padding: 20px 0 0 0;
-	background: url(/wp-content/themes/2012/grid.png);	
+ div, p, h1, h2, h3 { font-family:"Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size-adjust:0.488; font-weight:normal; font-style:normal; }
+
+.navbar {
+	margin-bottom: 0;
+	background: #222;
 }
 
-#left h1 {
-	margin: 0 0 20px 30px;
-	font-size: 22px;
-	line-height: 32px;
-	font-weight: normal;
-}
-
-#left h1 a:link, #left h1 a:visited {
-	text-decoration: none;
-	color: #000;
-}
-
-#left h1 img {
-	margin-right: 3px;
-	border: 1px solid #000;
-	border-radius: 4px;
-}
-
-#left ul.nav-pills li a:link, #left ul.nav-pills li a:visited {
-	padding: 20px 30px;
-	border-radius: 0;
+a.navbar-brand:link, a.navbar-brand:visited {
+	font-family: arial;
+	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 15px;
+	color: #f5f5f5;
+	font-size: 24px;
 }
 
-#left ul.nav-list li.nav-header {
-	padding: 5px 30px;
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background: none;
+	color: #999;
 }
 
-#left ul.nav-list li a:link, #left ul.nav-list li a:visited {
-	padding: 5px 30px;
-	font-weight: bold;
+.navbar-inverse .navbar-nav>li>a {
+
 }
 
-#left ul.nav-list li img {
-	position: relative;
-	top: -2px;
-	margin-right: 1px;
-}
-
-#left ul.nav-list li a i {
-	color: #333;
-}
-
-#right {
-	margin-left: 251px;
-	padding: 20px 0 0 0;
-}
-
-#right h2 {
-	font-weight: normal;
-}
-
-#right a:link, #right a:visited {
-	color: #000;
-	text-decoration: none;
-}
-
-.separator {
-	width: 709px; 
-	border-top: 1px dotted #ccc; 
-	margin: 20px 0;
-}
-
-#right a:hover {
-	color: #08c;
-}
-
-#right .post p a:link, #right .post p a:visited {
-	font-weight: normal;
-	color: #08c;
-	border: none;
-}
-
-#right .post p a:hover {
-	color: #06c;
-}
-
-.post blockquote {
-	border-left: 5px solid #08c;
-}
-
-#topbox {
-	margin: 0 20px 20px 20px;
-	padding: 20px;
-	background: #efefef;
-	color: #000;
-	width: 629px;
-	border-radius: 5px;
-}
-
-#topbox img {
-	float: left;
-	margin: 0 10px 0 0;
-}
-
-#topbox p {
-	font-size: 11pt;
-	line-height: 1.5em;
-	margin: 0;
-}
-
-#topbox a:link, #topbox a:visited {
-	color: #08c;
-	font-weight: bold;
-}
-
-.postdate h1 {
-	font-size: 18px;
-	font-weight: normal;
-	padding: 3px 20px;
-	float: left;
-	margin: 20px 0 0 20px;
-	background: #efefef;
-	color: #000;
-	border-radius: 5px;
-}
-
-.pager {
-	clear: left;
-	margin: 0 20px;
-	width: 669px;
-}
-
-.post {
-	clear: left;
-	padding: 10px 20px 10px 20px;
-	width: 669px;
-}
-
-.postsep {
-	border-bottom: 1px dotted #ccc;
-	margin-bottom: 10px;
-}
-
-.post h2 {
-	margin-bottom: 10px;
-}
-
-.post p, .post li, .post label {
-	font-size: 15px;
-	line-height: 1.5em;
-}
-
-.post p {
-	margin: 0px 0px 1.5em 0px;
-}
-
-.portfolio {
-	clear: left;
-	margin: 20px;
-	width: 669px;
-	height: 240px;
-	background-position: -20px -10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	position: relative;	
-}
-
-.portfolio h2 {
-	position: absolute;
-	left: 435px;
-	top: 5px;
-	color: #fff;
-	font-size: 15px;
-}
-
-.portfolio a.btn {
-	position: absolute;
-	left: 435px;
-	bottom: 20px;
-}
-
-.portfolio ul {
-	position: absolute;
-	left: 435px;
-	top: 55px;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.portfolio ul li {
-	float: left;
-	margin: 0 2px 12px 0;
-}
-
-.portfolio li span {
-	display: inline;
-	margin: 0 7px 0 0;
-	padding: 5px 0 7px 20px;
-	font-weight: bold;
-	font-size: 11px;
-	background: url(tagleftdark.png) no-repeat left top;
-	overflow: hidden;
-}
-
-#right .portfolio li span a:link, #right .portfolio li span a:visited {
-	margin: 0 -3px 0 0;
-	padding: 5px 9px 7px 0;
-	color: #fff;
-	text-decoration: none;
-	background: url(tagrightdark.png) no-repeat right top;
-	white-space: nowrap;
-}
+ #topstripe {
+ 	background: #06c url('/wp-content/themes/2012/abstract-overlay.png') 50% 0 repeat-x;
+ 	height: 95px;
+ 	margin-bottom: 40px;
+ }
 
 .contactform label {
 	display: block;
@@ -245,6 +57,131 @@
 	padding-left: 3px;
 }
 
-h3 {
+.post {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+.post p {
+	margin: 0 0 2em 0;
+}
+
+.post h1 {
 	font-weight: normal;
+	font-size: 36px;
+	margin-bottom: 1.5em;
+}
+
+h2.postdate {
+	font-weight: normal;
+	font-size: 20px;
+	color: #555;
+	margin: 0 0 1em 0;
+}
+
+#bio {
+	margin-left: 30px;
+	font-size: 18px;
+	line-height: 1.8em;
+	padding-left: 50px;
+	border-left: 5px solid #eee;
+}
+
+#bio h1 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.icon-list {
+	margin-top: 10px;
+}
+
+.icon-list li {
+	border: none;
+	padding: 5px 0;
+}
+
+.icon-list li a:link, .icon-list li a:visited {
+	color: #333;
+}
+
+.icon-list li a:hover {
+	text-decoration: none;
+}
+
+.icon-list li.nav-header {
+	background: #eee;
+}
+
+.icon-list li i {
+	width: 20px;
+	margin-right: 5px;
+}
+
+.portfolio {
+	font-family: arial, sans-serif;
+	clear: left;
+	margin: 0 0 20px 0;
+	width: 850px;
+	height: 240px;
+	background-position: -10px -10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;	
+}
+
+.portfolio h2 {
+	position: absolute;
+	left: 450px;
+	top: 5px;
+	color: #fff;
+	font-size: 15px;
+}
+
+.portfolio a.btn {
+	position: absolute;
+	left: 450px;
+	bottom: 17px;
+}
+
+.portfolio ul {
+	position: absolute;
+	left: 450px;
+	top: 55px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.portfolio ul li {
+	float: left;
+	margin: 0 2px 12px 0;
+}
+
+.portfolio li span {
+	display: inline;
+	margin: 0 7px 0 0;
+	padding: 5px 0 7px 20px;
+	font-weight: bold;
+	font-size: 11px;
+	background: url(tagleftdark.png) no-repeat left top;
+	overflow: hidden;
+}
+
+.portfolio li span a:link, .portfolio li span a:visited {
+	margin: 0 -3px 0 0;
+	padding: 5px 9px 7px 0;
+	color: #fff;
+	text-decoration: none;
+	background: url(tagrightdark.png) no-repeat right top;
+	white-space: nowrap;
+}
+
+#footer {
+	background: #222;
+	height: 5px;
 }

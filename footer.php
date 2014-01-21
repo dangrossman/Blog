@@ -1,4 +1,4 @@
-</div> <!-- /right -->
+</div>
 
 <?php wp_footer(); ?>
 
@@ -23,6 +23,8 @@ w3counter(4493);
 })();
 </script>
 <!-- End W3Counter Pulse Real-Time Heartbeat Code-->
+
+<div id="footer"></div>
 
 </body>
 </html>

@@ -1,39 +1,40 @@
 <?php get_header(); ?>
 
-<div id="topbox">
-    Sometimes I write code that might be useful to others. I make it available here.
-</div>
+<div class="container" style="width: 850px; padding: 0">
 
-<?php while ( have_posts() ) : the_post(); ?>
+    <h1 style="margin-bottom: 40px">Open Source Code</h1>
 
-<?php
-	$url = get_post_meta($post->ID, 'url', true); 
-	$download = get_post_meta($post->ID, 'download', true);
-	$arr = explode('/', $download);
-	$filename = $arr[count($arr)-1];
-?>
+	<?php while ( have_posts() ) : the_post(); ?>
 
-<div class="separator"></div>
+	<?php
+		$url = get_post_meta($post->ID, 'url', true); 
+		$download = get_post_meta($post->ID, 'download', true);
+		$arr = explode('/', $download);
+		$filename = $arr[count($arr)-1];
+	?>
 
-<div class="post">
+	<div class="post" style="padding-bottom: 20px">
 
-	<h2><?php the_title(); ?></h2>
+		<h2><?php the_title(); ?></h2>
 
-	<?php the_content(); ?>
+		<?php the_content(); ?>
 
-	<div class="btn-group">
-		<a class="btn" href="<?php echo $url; ?>">Project Details</a> <a class="btn" href="<?php echo $download; ?>">Download</a>
+		<div class="btn-group">
+			<a class="btn btn-primary" href="<?php echo $url; ?>">Project Details</a>
+			<a class="btn btn-success" href="<?php echo $download; ?>">Download</a>
+		</div>
+
 	</div>
+		
+	<?php endwhile; ?>
+
+	<?php if ($wp_query->max_num_pages > 1): ?>
+	<ul class="pager">
+		<li class="previous"><?php next_posts_link('&larr; Older posts'); ?></li>
+		<li class="next"><?php previous_posts_link('Newer posts &rarr;'); ?></li>
+	</ul>
+	<?php endif; ?>
 
 </div>
-	
-<?php endwhile; ?>
-
-<?php if ($wp_query->max_num_pages > 1): ?>
-<ul class="pager">
-	<li class="previous"><?php next_posts_link('&larr; Older posts'); ?></li>
-	<li class="next"><?php previous_posts_link('Newer posts &rarr;'); ?></li>
-</ul>
-<?php endif; ?>
 
 <?php get_footer(); ?>
