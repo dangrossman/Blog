@@ -185,3 +185,11 @@ h2.postdate {
 	background: #222;
 	height: 5px;
 }
+
+.well {
+	font-size: 15px;
+}
+
+.well .daterangepicker {
+	font-size: 18px;
+}

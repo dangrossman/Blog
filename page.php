@@ -8,7 +8,7 @@
 		<h1><?php the_title(); ?></h1>
 		<?php the_content(); ?>
 
-		<div style="text-align: center; margin-bottom: 10px">
+		<div style="text-align: center">
 			<a href="https://www.improvely.com" title="Click Fraud Auditing"><img src="http://www.improvely.com/images/ads/gray728.png" alt="PPC Click Fraud Prevention" style="border: 1px dotted #ccc" /></a>
 		</div>
 
