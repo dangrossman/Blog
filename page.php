@@ -9,7 +9,7 @@
 		<?php the_content(); ?>
 
 		<div style="text-align: center; margin-bottom: 10px">
-			<a href="http://www.improvely.com" title="Click Fraud Auditing"><img src="http://www.improvely.com/images/ads/fraud300.png" alt="PPC Click Fraud Prevention" style="border: 1px dotted #ccc" /></a>
+			<a href="https://www.improvely.com" title="Click Fraud Auditing"><img src="http://www.improvely.com/images/ads/gray728.png" alt="PPC Click Fraud Prevention" style="border: 1px dotted #ccc" /></a>
 		</div>
 
 	</div>
