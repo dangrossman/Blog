@@ -27,7 +27,8 @@ a.navbar-brand:link, a.navbar-brand:visited {
 }
 
  #topstripe {
- 	background: #06c url('/wp-content/themes/2012/abstract-overlay.png') 50% 0 repeat-x;
+ 	/*background: #06c url('/wp-content/themes/2012/abstract-overlay.png') 50% 0 repeat-x;*/
+        background: #eee;
  	height: 95px;
  	margin-bottom: 40px;
  }
@@ -192,4 +193,8 @@ h2.postdate {
 
 .well .daterangepicker {
 	font-size: 18px;
+}
+
+h2 {
+	margin-bottom: 1em;
 }

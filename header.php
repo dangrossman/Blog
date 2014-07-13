@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html lang="en">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<title><?php
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title><?php
 
 	global $page, $paged;
 
@@ -36,6 +38,9 @@
 	<script type="text/javascript" src="/wp-content/themes/2012/moment.js"></script>
 	<script type="text/javascript" src="/wp-content/themes/2012/daterangepicker.js"></script>
 
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/2012/trianglify.js"></script>
+
 	<link rel="stylesheet" href="http://f.fontdeck.com/s/css/uH5+KWQnibDTJRYggGJ9XZLTAgw/www.dangrossman.info/41697.css" type="text/css" />
 
 	<?php wp_head(); ?>
@@ -60,7 +65,6 @@
 		<li<?php if (is_page('Profile')) echo ' class="active"'; ?>><a href="/profile">Profile</a></li>
 		<li<?php if (is_category('Portfolio')) echo ' class="active"'; ?>><a href="/category/portfolio">Portfolio</a></li>
 		<li<?php if (is_category('Code')) echo ' class="active"'; ?>><a href="/category/code">Code</a></li>
-		<li<?php if (is_page('Contact Me')) echo ' class="active"'; ?>><a href="/contact">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
