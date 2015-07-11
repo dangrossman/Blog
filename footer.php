@@ -32,7 +32,7 @@ $(document).ready(function() {
 
     setInterval(function() {
       animateTitle();
-    }, 1500);
+    }, 3000);
 
     animateTitle();
 

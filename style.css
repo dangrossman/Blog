@@ -51,11 +51,12 @@ h2.postdate {
 }
 
 #bio {
-	margin-right: 30px;
+	margin-left: 30px;
 	font-size: 18px;
 	line-height: 1.8em;
-	padding-right: 50px;
-	border-right: 5px solid #eee;
+	padding-left: 50px;
+	border-left: 5px solid #eee;
+	position: relative;
 }
 
 #bio h1 {
@@ -104,24 +105,20 @@ h2 {
 	margin-bottom: 1em;
 }
 
-h1.title {
-	background-color: #fff;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-weight: bold;
-    font-size: 36px;
-    margin: 0;
-    padding: 0;
-    transition: background 1s linear;
-}
-
 .topbar {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 15px;
-	z-index: 99999;
-	transition: background 1s linear;
+	transition: background 1.5s linear;
+}
+
+.bigcol {
+	position: relative;
+}
+
+#backhome {
+	position: absolute;
+	top: -80px;
 }
