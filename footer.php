@@ -30,19 +30,25 @@ w3counter(4493);
 
 $(document).ready(function() {
 
-    //setInterval(function() {
+    setInterval(function() {
+      animateTitle();
+    }, 1500);
 
-        var bg = new Trianglify({
-          x_colors: ["#e1f3fd","#1d8dfe","#50bbff","#0099cc", "#1d8dfe","#e1f3fd"],
-          y_colors: 'match_x',
-          width: document.body.clientWidth,
-          height: 100,
-          stroke_width: 0
-        });
+    animateTitle();
 
-        $('#topstripe').css('background-image', 'url(' + bg.png() + ')');
+    function animateTitle() {
+      var bg = new Trianglify({
+        x_colors: 'random',
+        y_colors: 'match_x',
+        palette: Trianglify.colorbrewer,
+        width: document.body.clientWidth,
+        height: 15,
+        stroke_width: 0,
+        cell_size: 10
+      });
 
-    //}, 1000);
+      $('.topbar').css('background-image', 'url(' + bg.png() + ')'); 
+    }
 
 });
 

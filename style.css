@@ -2,43 +2,11 @@
  * Theme Name: dangrossman.info 2014
  */
 
- div, p, h1, h2, h3 { font-family:"Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size-adjust:0.488; font-weight:normal; font-style:normal; }
-
-.navbar {
-	margin-bottom: 0;
-	background: #222;
-}
-
-a.navbar-brand:link, a.navbar-brand:visited {
-	font-family: arial;
-	text-transform: uppercase;
-	font-weight: bold;
-	color: #f5f5f5;
-	font-size: 24px;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-	background: none;
-	color: #999;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-
-}
-
- #topstripe {
- 	/*background: #06c url('/wp-content/themes/2012/abstract-overlay.png') 50% 0 repeat-x;*/
-        background: #eee;
- 	height: 95px;
- 	margin-bottom: 40px;
+ body {
+ 	margin-top: 100px;
  }
 
-.contactform label {
-	display: block;
-	font-weight: bold;
-	width: 200px;
-	float: left;
-}
+ div, p, h1, h2, h3 { font-family:"Open Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size-adjust:0.488; font-weight:normal; font-style:normal; }
 
 #reportrange {
 	background: #ffffff;
@@ -83,11 +51,11 @@ h2.postdate {
 }
 
 #bio {
-	margin-left: 30px;
+	margin-right: 30px;
 	font-size: 18px;
 	line-height: 1.8em;
-	padding-left: 50px;
-	border-left: 5px solid #eee;
+	padding-right: 50px;
+	border-right: 5px solid #eee;
 }
 
 #bio h1 {
@@ -103,6 +71,7 @@ h2.postdate {
 .icon-list li {
 	border: none;
 	padding: 5px 0;
+	font-size: 15px;
 }
 
 .icon-list li a:link, .icon-list li a:visited {
@@ -111,6 +80,7 @@ h2.postdate {
 
 .icon-list li a:hover {
 	text-decoration: none;
+	color: #06c;
 }
 
 .icon-list li.nav-header {
@@ -118,73 +88,8 @@ h2.postdate {
 }
 
 .icon-list li i {
-	width: 20px;
+	width: 22px;
 	margin-right: 5px;
-}
-
-.portfolio {
-	font-family: arial, sans-serif;
-	clear: left;
-	margin: 0 0 20px 0;
-	width: 750px;
-	height: 240px;
-	background-position: -10px -10px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	position: relative;	
-}
-
-.portfolio h2 {
-	position: absolute;
-	left: 450px;
-	top: 5px;
-	color: #fff;
-	font-size: 15px;
-}
-
-.portfolio a.btn {
-	position: absolute;
-	left: 450px;
-	bottom: 17px;
-}
-
-.portfolio ul {
-	position: absolute;
-	left: 450px;
-	top: 55px;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.portfolio ul li {
-	float: left;
-	margin: 0 2px 12px 0;
-}
-
-.portfolio li span {
-	display: inline;
-	margin: 0 7px 0 0;
-	padding: 5px 0 7px 20px;
-	font-weight: bold;
-	font-size: 11px;
-	background: url(tagleftdark.png) no-repeat left top;
-	overflow: hidden;
-}
-
-.portfolio li span a:link, .portfolio li span a:visited {
-	margin: 0 -3px 0 0;
-	padding: 5px 9px 7px 0;
-	color: #fff;
-	text-decoration: none;
-	background: url(tagrightdark.png) no-repeat right top;
-	white-space: nowrap;
-}
-
-#footer {
-	background: #222;
-	height: 5px;
 }
 
 .well {
@@ -197,4 +102,26 @@ h2.postdate {
 
 h2 {
 	margin-bottom: 1em;
+}
+
+h1.title {
+	background-color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    transition: background 1s linear;
+}
+
+.topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15px;
+	z-index: 99999;
+	transition: background 1s linear;
 }
