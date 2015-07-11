@@ -27,18 +27,25 @@ w3counter(4493);
 <div id="footer"></div>
 
 <script type="text/javascript">
-console.log("?");
+
 $(document).ready(function() {
 
-  var t = new Trianglify({
-    noiseIntensity: 0,
-    cellsize: 30,
-    y_gradient: ["#9ecae1","#3182bd","#9ecae1"]
-  });
-  var pattern = t.generate(document.body.clientWidth, 100);
-  $('#topstripe').css('background-image', pattern.dataUrl);
+    //setInterval(function() {
+
+        var bg = new Trianglify({
+          x_colors: ["#e1f3fd","#1d8dfe","#50bbff","#0099cc", "#1d8dfe","#e1f3fd"],
+          y_colors: 'match_x',
+          width: document.body.clientWidth,
+          height: 100,
+          stroke_width: 0
+        });
+
+        $('#topstripe').css('background-image', 'url(' + bg.png() + ')');
+
+    //}, 1000);
 
 });
+
 </script>
 
 <script type="text/javascript">

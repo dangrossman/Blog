@@ -38,8 +38,11 @@
 	<script type="text/javascript" src="/wp-content/themes/2012/moment.js"></script>
 	<script type="text/javascript" src="/wp-content/themes/2012/daterangepicker.js"></script>
 
+	<!--
 	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
 	<script type="text/javascript" src="/wp-content/themes/2012/trianglify.js"></script>
+	-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
 
 	<link rel="stylesheet" href="http://f.fontdeck.com/s/css/uH5+KWQnibDTJRYggGJ9XZLTAgw/www.dangrossman.info/41697.css" type="text/css" />
 
