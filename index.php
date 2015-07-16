@@ -70,7 +70,6 @@
           <li class="list-group-item"><a href="http://github.com/dangrossman"><i class="fa fa-github fa-lg"></i> github</a></li>
           <li class="list-group-item"><a href="http://news.ycombinator.com/user?id=dangrossman"><i class="fa fa-hacker-news fa-lg"></i> hacker news</a></li>
           <li class="list-group-item"><a href="http://twitter.com/djg"><i class="fa fa-twitter-square fa-lg"></i> twitter</a></li>
-          <li class="list-group-item"><a href="http://stackoverflow.com/users/280598/dan-grossman"><i class="fa fa-stack-exchange fa-lg"></i> stack overflow</a></li>
           <li class="list-group-item"><a href="http://www.linkedin.com/in/dangrossmanawio"><i class="fa fa-linkedin-square fa-lg"></i> linkedin</a></li>
         </ul>
 
@@ -80,6 +79,7 @@
           <li class="list-group-item"><i class="fa fa-lg fa-calendar"></i> <a href="http://www.daterangepicker.com/">Date Range Picker</a></li>
           <li class="list-group-item"><i class="fa fa-lg fa-wrench"></i> <a href="http://www.websitegoodies.com/">Website Goodies</a></li>
           <li class="list-group-item"><i class="fa fa-lg fa-line-chart"></i> <a href="http://www.visitorboost.com/">Visitor Boost</a></li>
+	  <li class="list-group-item"><i class="fa fa-lg fa-pencil"></i> <a href="https://apps.shopify.com/improved-contact-form">Improved Contact Form</a></li>
           <li class="list-group-item"><i class="fa fa-lg fa-bookmark"></i> <a href="http://www.bookmarkly.com/">Bookmarkly</a> &mdash; <a href="https://github.com/dangrossman/bookmarkly">Code</a></li>
           <li class="list-group-item"><i class="fa fa-lg fa-tags"></i> <a href="https://wordpress.org/plugins/calais-auto-tagger/">WordPress Auto Tagger</a></li>
           <li class="list-group-item"><i class="fa fa-lg fa-tag"></i> <a href="https://github.com/dangrossman/PHP-OpenCalais">OpenCalais PHP Library</a></li>
