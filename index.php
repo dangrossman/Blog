@@ -70,6 +70,7 @@
           <li class="list-group-item"><a href="http://github.com/dangrossman"><i class="fa fa-github fa-lg"></i> github</a></li>
           <li class="list-group-item"><a href="http://news.ycombinator.com/user?id=dangrossman"><i class="fa fa-hacker-news fa-lg"></i> hacker news</a></li>
           <li class="list-group-item"><a href="http://www.linkedin.com/in/dangrossmanawio"><i class="fa fa-linkedin-square fa-lg"></i> linkedin</a></li>
+	  <li class="list-group-item"><a href="http://www.dangrossman.info/feed/"><i class="fa fa-lg fa-rss"></i> RSS</a></li>
         </ul>
 
         <p>Past work &amp; open source &mdash;</p>
