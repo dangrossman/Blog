@@ -70,22 +70,22 @@
           <li class="list-group-item"><a href="http://github.com/dangrossman"><i class="fa fa-github fa-lg"></i> github</a></li>
           <li class="list-group-item"><a href="http://news.ycombinator.com/user?id=dangrossman"><i class="fa fa-hacker-news fa-lg"></i> hacker news</a></li>
           <li class="list-group-item"><a href="http://www.linkedin.com/in/dangrossmanawio"><i class="fa fa-linkedin-square fa-lg"></i> linkedin</a></li>
-	  <li class="list-group-item"><a href="http://www.dangrossman.info/feed/"><i class="fa fa-lg fa-rss"></i> RSS</a></li>
+          <li class="list-group-item"><a href="http://www.dangrossman.info/feed/"><i class="fa fa-lg fa-rss"></i> RSS</a></li>
         </ul>
 
         <p>Past work &amp; open source &mdash;</p>
 
         <ul class="list-group icon-list">
-          <li class="list-group-item"><i class="fa fa-lg fa-calendar"></i> <a href="http://www.daterangepicker.com/">Date Range Picker</a></li>
-          <li class="list-group-item"><i class="fa fa-lg fa-wrench"></i> <a href="http://www.websitegoodies.com/">Website Goodies</a></li>
-          <li class="list-group-item"><i class="fa fa-lg fa-line-chart"></i> <a href="http://www.visitorboost.com/">Visitor Boost</a></li>
-	  <li class="list-group-item"><i class="fa fa-lg fa-pencil"></i> <a href="https://apps.shopify.com/improved-contact-form">Improved Contact Form</a></li>
-          <li class="list-group-item"><i class="fa fa-lg fa-bookmark"></i> <a href="http://www.bookmarkly.com/">Bookmarkly</a> &mdash; <a href="https://github.com/dangrossman/bookmarkly">Code</a></li>
-          <li class="list-group-item"><i class="fa fa-lg fa-tags"></i> <a href="https://wordpress.org/plugins/calais-auto-tagger/">WordPress Auto Tagger</a></li>
-          <li class="list-group-item"><i class="fa fa-lg fa-tag"></i> <a href="https://github.com/dangrossman/PHP-OpenCalais">OpenCalais PHP Library</a></li>
-          <li class="list-group-item"><i class="fa fa-lg fa-bank"></i> <a href="http://www.dangrossman.info/2013/08/02/a-frontend-ui-for-the-spreedly-core-api/">Spreedly Vault Viewer</a></li>
-          <li class="list-group-item"><i class="fa fa-lg fa-search"></i> <a href="http://www.dangrossman.info/2011/01/15/more-free-code-node-searchparser/">node-searchparser</a></li>
-          <li class="list-group-item"><i class="fa fa-lg fa-desktop"></i> <a href="http://www.dangrossman.info/2010/10/11/a-browscap-ini-parser-in-javascript/">node-browscap</a></li>
+          <li class="list-group-item"><a href="http://www.daterangepicker.com/"><i class="fa fa-lg fa-calendar"></i> Date Range Picker</a></li>
+          <li class="list-group-item"><a href="http://www.websitegoodies.com/"><i class="fa fa-lg fa-wrench"></i> Website Goodies</a></li>
+          <li class="list-group-item"><a href="http://www.visitorboost.com/"><i class="fa fa-lg fa-line-chart"></i> Visitor Boost</a></li>
+          <li class="list-group-item"><a href="https://apps.shopify.com/improved-contact-form"><i class="fa fa-lg fa-pencil"></i> Improved Contact Form</a></li>
+          <li class="list-group-item"><a href="http://www.bookmarkly.com/"><i class="fa fa-lg fa-bookmark"></i> Bookmarkly</a> &mdash; <a href="https://github.com/dangrossman/bookmarkly">Code</a></li>
+          <li class="list-group-item"><a href="https://wordpress.org/plugins/calais-auto-tagger/"><i class="fa fa-lg fa-tags"></i> WordPress Auto Tagger</a></li>
+          <li class="list-group-item"><a href="https://github.com/dangrossman/PHP-OpenCalais"><i class="fa fa-lg fa-tag"></i> OpenCalais PHP Library</a></li>
+          <li class="list-group-item"><a href="http://www.dangrossman.info/2013/08/02/a-frontend-ui-for-the-spreedly-core-api/"><i class="fa fa-lg fa-bank"></i> Spreedly Vault Viewer</a></li>
+          <li class="list-group-item"><a href="http://www.dangrossman.info/2011/01/15/more-free-code-node-searchparser/"><i class="fa fa-lg fa-search"></i> node-searchparser</a></li>
+          <li class="list-group-item"><a href="http://www.dangrossman.info/2010/10/11/a-browscap-ini-parser-in-javascript/"><i class="fa fa-lg fa-desktop"></i> node-browscap</a></li>
         </ul>
 
       </div>
